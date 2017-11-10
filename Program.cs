@@ -47,7 +47,8 @@ namespace Calculatrice
                         Console.Write("La réponse : " + dblRep.ToString());
                         break;
                     case "-":
-                        dblRep = 0;
+                        dblRep = Outils.Soustraction(dblVal1, dblVal2);
+                        Console.Write("La réponse : " + dblRep.ToString());
                         break;
                     case "*":
                         dblRep = 0;
